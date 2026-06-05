@@ -1,6 +1,6 @@
 # Thakur Divyansh — Portfolio
 
-A minimal, single-column developer portfolio (dark by default, with a light theme), inspired by the layout and feel of [siddz.com](https://siddz.com) — minus the component-library showcase.
+A minimal, single-column developer portfolio (dark by default, with a light theme), inspired by the layout and feel of minimalism.
 
 Built with **Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Geist fonts**.
 
