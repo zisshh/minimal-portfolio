@@ -1,7 +1,7 @@
 {
-  "tool_name": "mcp__playwright__browser_navigate",
-  "tool_input_preview": "{\"url\":\"http://localhost:3210/icon.svg\"}",
-  "error": "### Error\nTimeoutError: browserBackend.callTool: Timeout 30000ms exceeded.",
-  "timestamp": "2026-06-05T18:57:18.188Z",
+  "tool_name": "mcp__playwright__browser_run_code_unsafe",
+  "tool_input_preview": "{\"code\":\"async (page) => {\\n  const fs = require('fs');\\n  fs.rmSync('/tmp/mpframes', { recursive: true, force: true });\\n  fs.mkdirSync('/tmp/mpframes', { recursive: true });\\n  await page.setViewpor...",
+  "error": "### Error\nReferenceError: require is not defined",
+  "timestamp": "2026-06-05T19:53:50.760Z",
   "retry_count": 1
 }
