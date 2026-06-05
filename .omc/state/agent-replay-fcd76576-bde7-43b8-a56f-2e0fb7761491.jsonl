@@ -19,3 +19,5 @@
 {"t":0,"agent":"system","event":"mode_change","mode_from":"none","mode_to":"autopilot"}
 {"t":0,"agent":"a7df290","agent_type":"unknown","event":"agent_stop","success":true}
 {"t":0,"agent":"a4d68d3","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a78d8be","agent_type":"unknown","event":"agent_stop","success":true}
+{"t":0,"agent":"a99df78","agent_type":"unknown","event":"agent_stop","success":true}

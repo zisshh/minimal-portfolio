@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
+  <rect width="180" height="180" fill="#070709" />
+  <text
+    x="50%"
+    y="53%"
+    fill="#fafafa"
+    font-family="'Helvetica Neue', Arial, system-ui, -apple-system, sans-serif"
+    font-size="84"
+    font-weight="800"
+    letter-spacing="-4"
+    text-anchor="middle"
+    dominant-baseline="central"
+  >TD</text>
+</svg>

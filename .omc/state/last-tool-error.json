@@ -1,7 +1,7 @@
 {
-  "tool_name": "mcp__playwright__browser_evaluate",
-  "tool_input_preview": "{\"function\":\"async () => {\\n  document.documentElement.style.scrollBehavior='auto';\\n  const h=document.documentElement.scrollHeight;\\n  for(let y=0;y<=h;y+=400){window.scrollTo(0,y);await new Promise...",
-  "error": "### Error\nTypeError: Cannot read properties of null (reading 'getBoundingClientRect')\n    at eval (eval at <anonymous> (eval at evaluate (:302:30)), <anonymous>:7:152)\n    at Array.map (<anonymous>)\n    at eval (eval at <anonymous> (eval at evaluate (:302:30)), <anonymous>:7:102)\n    at async eval (eval at evaluate (:302:30), <anonymous>:4:30)\n    at async <anonymous>:328:30",
-  "timestamp": "2026-06-05T10:03:48.347Z",
+  "tool_name": "mcp__playwright__browser_navigate",
+  "tool_input_preview": "{\"url\":\"http://localhost:3210/icon.svg\"}",
+  "error": "### Error\nTimeoutError: browserBackend.callTool: Timeout 30000ms exceeded.",
+  "timestamp": "2026-06-05T18:57:18.188Z",
   "retry_count": 1
 }
