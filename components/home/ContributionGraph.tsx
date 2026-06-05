@@ -2,12 +2,14 @@ import { getContributions } from "@/lib/github";
 import { profile } from "@/content/profile";
 import { cn } from "@/lib/utils";
 
+// Theme-adaptive greyscale ramp (like siddz.com): lighter cells = more activity
+// on dark, darker cells = more activity on light. Driven by the foreground color.
 const LEVEL_CLASS = [
-  "bg-fg-faint/15",
-  "bg-accent/35",
-  "bg-accent/55",
-  "bg-accent/75",
-  "bg-accent",
+  "bg-fg/[0.06]",
+  "bg-fg/25",
+  "bg-fg/45",
+  "bg-fg/65",
+  "bg-fg/90",
 ];
 
 const profileUrl = `https://github.com/${profile.githubUser}`;

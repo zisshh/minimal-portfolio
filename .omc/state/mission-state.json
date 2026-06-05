@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T18:42:57.613Z",
+  "updatedAt": "2026-06-05T18:59:34.157Z",
   "missions": [
     {
       "id": "session:fcd76576-bde7-43b8-a56f-2e0fb7761491:none",
@@ -7,7 +7,7 @@
       "name": "none",
       "objective": "Session mission",
       "createdAt": "2026-06-04T19:36:17.491Z",
-      "updatedAt": "2026-06-05T18:42:57.613Z",
+      "updatedAt": "2026-06-05T18:59:34.157Z",
       "status": "done",
       "workerCount": 5,
       "taskCounts": {
@@ -27,7 +27,7 @@
           "currentStep": null,
           "latestUpdate": "completed",
           "completedSummary": null,
-          "updatedAt": "2026-06-05T18:42:57.613Z"
+          "updatedAt": "2026-06-05T18:59:34.157Z"
         },
         {
           "name": "workflow-subagent:a056157",
@@ -190,6 +190,22 @@
           "agent": "workflow-subagent:a43c027",
           "detail": "completed",
           "sourceKey": "session-stop:a99df78aac129571c"
+        },
+        {
+          "id": "session-stop:ab2f48ca166584562:2026-06-05T18:59:31.092Z",
+          "at": "2026-06-05T18:59:31.092Z",
+          "kind": "completion",
+          "agent": "workflow-subagent:a43c027",
+          "detail": "completed",
+          "sourceKey": "session-stop:ab2f48ca166584562"
+        },
+        {
+          "id": "session-stop:a503e445f1c8e3f5b:2026-06-05T18:59:34.157Z",
+          "at": "2026-06-05T18:59:34.157Z",
+          "kind": "completion",
+          "agent": "workflow-subagent:a43c027",
+          "detail": "completed",
+          "sourceKey": "session-stop:a503e445f1c8e3f5b"
         }
       ]
     }

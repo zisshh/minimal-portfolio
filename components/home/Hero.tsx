@@ -22,7 +22,7 @@ function Meta({ label, children }: MetaProps) {
 
 export function Hero() {
   return (
-    <section className="flex min-h-[86vh] flex-col justify-center pt-28">
+    <section className="flex flex-col pt-24 pb-16 sm:pt-28">
       <div className="flex items-center gap-4">
         <Image
           src="/avatar.png"
