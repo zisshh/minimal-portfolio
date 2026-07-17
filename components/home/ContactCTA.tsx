@@ -5,7 +5,7 @@ import { profile } from "@/content/profile";
 const cards = [
   {
     icon: Mail,
-    title: "Email me",
+    title: "Work with ziiro",
     sub: profile.email,
     note: "Replies within 24 hours",
     href: `mailto:${profile.email}`,
@@ -15,7 +15,7 @@ const cards = [
     icon: FaLinkedin,
     title: "Connect on LinkedIn",
     sub: "in/thakurdiv",
-    note: "Open to roles & collaborations",
+    note: "Building ziiro in public",
     href: "https://www.linkedin.com/in/thakurdiv/",
     external: true,
   },

@@ -22,7 +22,7 @@ const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://thakurdiv.com";
 
 const description =
-  "Software engineer building full-stack products end-to-end — founding developer at Ziiro and engineer at Amdocs. TypeScript, React, Node, and .NET.";
+  "Divyansh — founder of ziiro (https://ziiro.work), an AI consultancy building custom agentic systems for businesses. Ex-Amdocs engineer who ships fast with AI.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -33,10 +33,13 @@ export const metadata: Metadata = {
   description,
   keywords: [
     profile.name,
-    "Software Engineer",
-    "Full-Stack Developer",
-    "Ziiro",
-    "React",
+    "Founder",
+    "ziiro",
+    "ziiro.work",
+    "AI Consultancy",
+    "Agentic Systems",
+    "AI Automation",
+    "Business Brain",
     "Next.js",
     "TypeScript",
   ],

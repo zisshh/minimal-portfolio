@@ -8,7 +8,7 @@ import { about } from "@/content/about";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "The story behind Thakur Divyansh — founding developer at Ziiro, engineer at Amdocs, and the path from a curious CS student to shipping products.",
+    "The story behind Thakur Divyansh — founder of ziiro (https://ziiro.work), the AI consultancy building custom agentic systems for businesses. Ex-Amdocs engineer.",
 };
 
 export default function AboutPage() {
@@ -119,7 +119,7 @@ export default function AboutPage() {
           <section>
             <SectionHeading eyebrow="Contact" title="Let's connect" />
             <p className="mb-4 max-w-2xl text-[14px] leading-[1.8] text-fg-muted">
-              Always up for a good conversation — about a role, a project, or
+              Always up for a good conversation — about AI, agentic systems, or
               just something you&apos;re building.
             </p>
             <SocialLinks />

@@ -1,4 +1,4 @@
-<h1 align="center">Thakur Divyansh — Portfolio</h1>
+<h1 align="center">Thakur Divyansh — Founder Portfolio</h1>
 
 <p align="center">
   <a href="https://thakurdiv.com"><strong>🔗 Live at thakurdiv.com</strong></a>
@@ -10,13 +10,13 @@
   </a>
 </p>
 
-A minimal, single-column developer portfolio (dark by default, with a light theme), inspired by the layout and feel of minimalism.
+A minimal, single-column founder portfolio (dark by default, with a light theme), inspired by the layout and feel of minimalism. It's the personal site of **Thakur Divyansh** — founder of [ziiro](https://ziiro.work), an AI consultancy that builds custom agentic systems for businesses.
 
 Built with **Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · Geist fonts**.
 
 ## Features
 
-- **Home** (`/`) — hero, GitHub contribution graph, tech-logo grid, two featured projects (a **live** ziiro.work embed + a transqlate demo), experience timeline, contact form, visitor counter.
+- **Home** (`/`) — hero, GitHub contribution graph, tech-logo grid, two featured projects (a **live** [ziiro.work](https://ziiro.work) embed + a transqlate demo), experience timeline, contact form, visitor counter.
 - **About** (`/about`) — story, working principles, education & community.
 - **Dark / light theme** — class-based, persisted to `localStorage`, no flash on load.
 - **GitHub contribution graph** — pulled live from GitHub's public contributions endpoint for [`@zisshh`](https://github.com/zisshh). No token required; revalidated hourly.

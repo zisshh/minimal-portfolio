@@ -12,25 +12,25 @@ export interface ExperienceEntry {
 
 export const experience: ExperienceEntry[] = [
   {
-    role: "Founding Developer",
-    company: "Ziiro",
+    role: "Founder",
+    company: "ziiro",
     href: "https://ziiro.work",
-    start: "Jan 2026",
+    start: "2026",
     end: "Present",
     location: "Remote",
     type: "Full-time",
     points: [
-      "Built and scaled Ziiro's core platform from 0 → 1, owning architecture, development, deployment, and the technical roadmap.",
-      "Shipped production-ready full-stack features and internal systems with a focus on performance, scalability, and user experience.",
-      "Worked directly with founders, designers, and early customers to iterate fast and drive growth through technology.",
+      "Founded ziiro, an AI consultancy building custom agentic systems for businesses — free, on-camera operations analysis first, then the paid systems that close the gaps it surfaces.",
+      "Built Business Brain, ziiro's flagship product: a private portal and AI agent trained on a business's own data, so an owner can ask what's active, what's pending, and who hasn't paid in 60 days — delivered in ~2 weeks.",
+      "Analyze real businesses on camera — street-food stalls to startups — showing where they lose money and which pipelines eat revenue, and ship daily content educating Indian businesses about AI.",
     ],
-    tags: ["Next.js", "React", "Node.js", "TypeScript"],
+    tags: ["AI Agents", "Automation", "Next.js", "TypeScript"],
   },
   {
     role: "Software Engineer",
     company: "Amdocs",
     start: "Jun 2025",
-    end: "Present",
+    end: "2026",
     location: "Gurugram, India",
     type: "Full-time",
     points: [

@@ -16,12 +16,12 @@ export interface Project {
 // Two featured projects — the rest live behind the GitHub link in the hero.
 export const projects: Project[] = [
   {
-    name: "Ziiro",
+    name: "ziiro",
     description:
-      "Building Ziiro from 0 → 1 as founding developer — an AI automation agency. I own the architecture, full-stack development, deployment, and technical roadmap.",
+      "My AI consultancy — custom agentic systems for businesses. I analyze real operations on camera, then build what closes the gaps. Flagship: Business Brain, a private portal and AI agent trained on a business's own data, shipped in ~2 weeks.",
     href: "https://ziiro.work",
     embed: "https://ziiro.work",
-    tags: ["Startup", "Full-Stack", "Next.js", "Node.js"],
+    tags: ["AI Agents", "Automation", "Next.js", "Node.js"],
     year: "2026",
   },
   {

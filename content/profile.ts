@@ -8,7 +8,7 @@ export interface SocialLink {
 
 export const profile = {
   name: "Thakur Divyansh",
-  title: "Software Engineer",
+  title: "Founder of ziiro",
   email: "thkrdiv@gmail.com",
   location: "Gurugram, India",
   pronouns: null as string | null,
@@ -16,17 +16,17 @@ export const profile = {
 
   /** Cycled in the hero, per-character blur-in. */
   roles: [
-    "Software Engineer",
-    "Full-Stack Developer",
-    "Founding Developer",
-    "Curious Builder",
+    "Founder of ziiro",
+    "AI Consultant",
+    "Agentic Systems Builder",
+    "Full-Stack Engineer",
   ],
 
-  bio: "I build full-stack products end-to-end — from system architecture and APIs down to the pixels people actually touch. Right now I'm a founding developer at Ziiro and a software engineer at Amdocs, working across TypeScript, React, Node, and .NET. I care about performance, clean systems, and shipping things that feel obvious to use.",
+  bio: "I build AI systems that make businesses money. I founded ziiro — an AI consultancy that walks into real businesses, finds where they're bleeding revenue, and ships the custom agentic systems that close the gap. Before this I spent a year engineering large-scale telecom systems at Amdocs. Now I build for myself, and I ship in public.",
 
   quote: {
-    text: "Simplicity is prerequisite for reliability.",
-    author: "Edsger W. Dijkstra",
+    text: "I'd rather bleed for myself than be comfortable for someone else.",
+    author: "Thakur Divyansh",
   },
 
   socials: [

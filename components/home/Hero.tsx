@@ -4,6 +4,9 @@ import { RoleRotator } from "./RoleRotator";
 import { SocialLinks } from "./SocialLinks";
 import { profile } from "@/content/profile";
 
+const ZIIRO = "ziiro";
+const ZIIRO_URL = "https://ziiro.work";
+
 interface MetaProps {
   label: string;
   children: React.ReactNode;
@@ -21,6 +24,8 @@ function Meta({ label, children }: MetaProps) {
 }
 
 export function Hero() {
+  const ziiroAt = profile.bio.toLowerCase().indexOf(ZIIRO);
+
   return (
     <section className="flex flex-col pt-24 pb-16 sm:pt-28">
       <div className="flex items-center gap-4">
@@ -57,7 +62,22 @@ export function Hero() {
       </dl>
 
       <p className="mt-8 max-w-2xl text-[15px] font-[450] leading-[1.85] text-fg-muted">
-        {profile.bio}
+        {ziiroAt === -1 ? (
+          profile.bio
+        ) : (
+          <>
+            {profile.bio.slice(0, ziiroAt)}
+            <a
+              href={ZIIRO_URL}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline underline-offset-2 decoration-fg-faint transition-colors hover:text-fg-strong hover:decoration-fg-strong"
+            >
+              {profile.bio.slice(ziiroAt, ziiroAt + ZIIRO.length)}
+            </a>
+            {profile.bio.slice(ziiroAt + ZIIRO.length)}
+          </>
+        )}
       </p>
 
       <SocialLinks className="mt-8" />
